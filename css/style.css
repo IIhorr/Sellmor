@@ -1,0 +1,28 @@
+:root {
+  /*--------------- Fonts -----------------*/
+  --font__bold: 'MontserratBold';
+  --font__300: 'MontserratLight';
+  --font__norm: 'MontserratRegular';
+  --font__600: 'MontserratSemiBold';
+
+  /*--------------- Colors -----------------*/
+  --white: #fff;
+  --gray: #b0bec5;
+  --black: #263238;
+  --purple: #553597;
+  --purple__comments: #503495;
+  --black__gray: #546e7a;
+  --blue: #00448b;
+}
+
+/*---------- Global classes ---------*/
+
+.container {
+  width: 1290px;
+}
+
+.container--bg {
+  width: 1410px;
+}
+
+/*-----x----- Global classes -----x----*/
