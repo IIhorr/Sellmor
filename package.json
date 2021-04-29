@@ -1,0 +1,23 @@
+{
+  "name": "sellmor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIhorr/Sellmor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIhorr/Sellmor/issues"
+  },
+  "homepage": "https://github.com/IIhorr/Sellmor#readme",
+  "devDependencies": {
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
