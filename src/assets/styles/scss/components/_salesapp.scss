@@ -1,0 +1,49 @@
+.salesapp {
+  &__left {
+    grid-column: 1 / 5;
+    padding-top: 18px;
+  }
+
+  &__right {
+    grid-column: 6 / -1;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  &__text-inner {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 59px;
+  }
+
+  &__text {
+    grid-column: 5 span;
+    letter-spacing: 0.4px;
+    color: #546e7a;
+    font-size: 20px;
+    font-weight: 300;
+
+    &:not(:last-child) {
+      margin-bottom: 36px;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    color: #553597;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    letter-spacing: 0.6px;
+
+    svg {
+      width: 35px;
+      height: 13px;
+      fill: #553597;
+    }
+  }
+}
