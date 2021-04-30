@@ -29,6 +29,10 @@ dd {
   margin: 0;
 }
 
+p {
+  letter-spacing: 0.6px;
+}
+
 /* Выставляем основные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
@@ -51,6 +55,10 @@ a:not([class]) {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+input {
+  padding: 0;
 }
 
 /* Упрощаем работу с изображениями */

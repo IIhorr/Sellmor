@@ -1,3 +1,7 @@
+body {
+  font: var(--font-text);
+}
+
 .btn-reset {
   border: none;
   padding: 0;
@@ -6,72 +10,47 @@
 }
 
 .container {
-  max-width: 1260px;
-  grid-column-start: 2;
-  grid-column: 2 / 13;
-}
-
-.big__container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1380px;
+  max-width: 1290px;
+  margin-left: auto;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: var(--grid-gap);
+  grid-template-columns: repeat(11, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.big__container {
+  margin: 0 auto;
+  max-width: 1410px;
 }
 
 .btn {
-  padding: 22px 47px;
-  border-radius: 4px;
-  font: var(--middle-regular);
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  padding: 22px 42px;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 300;
+  color: var(--color-white);
+  transition: background-color 0.2s ease-in-out;
+  background-color: var(--color-gigas);
+
+  &:hover {
+    background-color: var(--color-gigas-hover);
+  }
 
   &--primary {
-    color: var(--color-white);
-    background-color: var(--color-accent);
+    background-color: var(--color-bahama-blue);
 
     &:hover {
-      background-color: var(--color-accent-hover);
-    }
-  }
-}
-
-.title {
-  margin-bottom: var(--main-offset);
-  font: var(--middle-high-bold);
-  color: var(--color-main);
-}
-
-.custom-checkbox {
-  font: var(--middle-book);
-  color: var(--color-main);
-  padding-left: 35px;
-  &__content {
-    &::before {
-      top: -3px;
-      border-color: var(--color-cameo);
-      border-radius: 4px;
-      width: 24px;
-      height: 24px;
-    }
-
-    &::after {
-      top: -3px;
-      width: 24px;
-      height: 24px;
-      background-image: url('../../img/catalog/check.svg');
-      background-size: 15px 12px;
+      background-color: var(--color-bahama-blue-hover);
     }
   }
 }
 
 .logo {
-  grid-column: 2 span;
+  display: block;
+  width: 219px;
+  height: 83px;
 }
 
 .img {

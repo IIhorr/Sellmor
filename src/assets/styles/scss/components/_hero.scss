@@ -1,4 +1,47 @@
 .hero {
+  &__container {
+    position: relative;
+    z-index: 2;
+    padding-top: 150px;
+  }
+
+  &__inner {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__left {
+    margin-top: 72px;
+    width: 47%;
+  }
+
+  &__title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--color-white);
+    margin-bottom: 43px;
+  }
+
+  &__text {
+    color: var(--color-white);
+    font: var(--font-text);
+  }
+
+  &__right {
+    width: 51%;
+  }
   &__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  &__form {
+    width: 50%;
   }
 }
