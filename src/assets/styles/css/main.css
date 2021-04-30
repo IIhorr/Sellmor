@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+  margin: 0;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1210px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--grid-gap);
+}
+
+.btn {
+  padding: 22px 47px;
+  border-radius: 4px;
+  font: var(--middle-regular);
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.btn--primary {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+}
+.btn--primary:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.title {
+  margin-bottom: var(--main-offset);
+  font: var(--middle-high-bold);
+  color: var(--color-main);
+}
+
+.custom-checkbox {
+  font: var(--middle-book);
+  color: var(--color-main);
+  padding-left: 35px;
+}
+.custom-checkbox__content::before {
+  top: -3px;
+  border-color: var(--color-cameo);
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+.custom-checkbox__content::after {
+  top: -3px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../img/catalog/check.svg");
+  background-size: 15px 12px;
+}
+/*# sourceMappingURL=main.css.map */
