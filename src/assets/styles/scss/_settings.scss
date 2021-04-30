@@ -6,9 +6,17 @@
 }
 
 .container {
+  max-width: 1260px;
+  grid-column-start: 2;
+  grid-column: 2 / 13;
+}
+
+.big__container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1210px;
+  max-width: 1380px;
 }
 
 .grid {
@@ -60,4 +68,15 @@
       background-size: 15px 12px;
     }
   }
+}
+
+.logo {
+  grid-column: 2 span;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

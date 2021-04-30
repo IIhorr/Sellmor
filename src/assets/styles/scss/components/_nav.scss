@@ -1,0 +1,22 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    &:hover {
+      opacity: 1;
+    }
+
+    &-active {
+      opacity: 1;
+    }
+
+    font: var(--font-links);
+    color: var(--color-white);
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-right: 70px;
+  }
+}
