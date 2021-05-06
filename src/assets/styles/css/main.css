@@ -146,6 +146,14 @@ body {
   object-fit: cover;
 }
 
+.br {
+  width: 100%;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #503495;
+  opacity: 0.1;
+}
+
 :root {
   --color-white: #fff;
   --color-black: #000;
@@ -159,6 +167,8 @@ body {
   --font-medium-header: 700 30px / 120% "Montserrat";
   --font-links: 700 14px / 120% "Montserrat";
   --font-text: 300 20px / 180% "Montserrat";
+  --font-title: 700 40px / 180% "Montserrat";
+  --font-smalltitle: 700 30px / 180% "Montserrat";
 }
 
 .header {
@@ -311,6 +321,18 @@ body {
   padding: 22px 34px;
 }
 
+.salesapp {
+  margin-bottom: 257px;
+  position: relative;
+  width: 100%;
+}
+.salesapp__bg {
+  position: absolute;
+  top: -86px;
+  left: 0;
+  z-index: -1;
+  width: 503px;
+}
 .salesapp__left {
   grid-column: 1/5;
   padding-top: 18px;
@@ -356,6 +378,8 @@ body {
 .app {
   width: 435px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: relative;
+  z-index: 1;
 }
 .app__slider {
   position: relative;
@@ -469,6 +493,7 @@ body {
 }
 .app__descr {
   padding: 50px 67px 48px;
+  background-color: var(--color-white);
 }
 .app__btn {
   position: relative;
@@ -503,5 +528,169 @@ body {
   background-color: #75d1f5;
   transform: translate(-50%, -50%);
   border-radius: 100%;
+}
+
+.purchasing {
+  position: relative;
+  margin-bottom: 230px;
+}
+.purchasing .container {
+  background-color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 15px;
+}
+.purchasing__bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -250px;
+  z-index: -1;
+}
+.purchasing__inner {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: var(--grid-gap);
+  grid-column: 2/10;
+}
+.purchasing__title {
+  grid-column: 8 span;
+  font: var(--font-title);
+  color: #263238;
+  width: 560px;
+  margin-bottom: 160px;
+}
+.purchasing__list {
+  grid-column: 8 span;
+  display: grid;
+  grid-column-gap: var(--grid-gap);
+  grid-row-gap: 95px;
+  grid-template-columns: repeat(8, 1fr);
+  margin-bottom: 110px !important;
+}
+.purchasing__item-title {
+  font: var(--font-smalltitle);
+  color: #546e7a;
+  margin-bottom: 40px;
+}
+.purchasing__item-text {
+  font: var(--font-text);
+  color: #546e7a;
+}
+.purchasing__item:nth-child(odd) {
+  grid-column: 1/4;
+}
+.purchasing__item:nth-child(even) {
+  grid-column: 5/8;
+}
+.purchasing__img {
+  width: 120px;
+  height: 120px;
+  background-color: #ece9f4;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.purchasing__img svg {
+  width: 50px;
+  height: auto;
+}
+
+.customers {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 185px;
+}
+.customers__title {
+  font: var(--font-title);
+  margin-bottom: 77px;
+}
+.customers__bottom {
+  position: relative;
+  margin-top: 95px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: var(--grid-gap);
+}
+.customers__count {
+  margin-top: 30px;
+  grid-column: 4 span;
+  position: relative;
+}
+.customers__count__title {
+  font: var(--font-smalltitle);
+  color: #546e7a;
+}
+.customers__count__num {
+  display: block;
+  position: absolute;
+  bottom: -105px;
+  left: 0;
+  font: var(--font-smalltitle);
+  color: #763ea6;
+  opacity: 0.07;
+  font-size: 528px;
+  line-height: 1;
+}
+.customers__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  margin-bottom: 58px;
+  background: #503495;
+  background: linear-gradient(90deg, #503495 0%, #005695 100%);
+}
+.customers__icon svg {
+  width: 35px;
+  height: 33px;
+}
+.customers__text {
+  grid-column: 4 span;
+  font: var(--font-text);
+  color: #546e7a;
+}
+.customers__phone {
+  position: absolute;
+  top: -325px;
+  right: 0;
+  grid-column: 10/-1;
+  width: 100%;
+}
+.customers__slider-count {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  grid-column: 12 span;
+}
+.customers__slider-count__item {
+  width: 17px;
+  height: 17px;
+  background-color: #7b3da7;
+  opacity: 0.2;
+  border-radius: 100%;
+  transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out, width 0.2s ease-in-out;
+}
+.customers__slider-count__item:not(:last-child) {
+  margin-right: 20px;
+}
+.customers__slider-count__item.active {
+  background-color: #00448b;
+  opacity: 1;
+  width: 100px;
+  border-radius: 7.5px;
+}
+.customers__bg {
+  position: absolute;
+  right: -678px;
+  top: -205px;
+  width: 1527px;
+  z-index: -1;
 }
 /*# sourceMappingURL=main.css.map */

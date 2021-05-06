@@ -1,6 +1,8 @@
 .app {
   width: 435px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: relative;
+  z-index: 1;
 
   &__slider {
     position: relative;
@@ -133,6 +135,7 @@
 
   &__descr {
     padding: 50px 67px 48px;
+    background-color: var(--color-white);
   }
 
   &__btn {
