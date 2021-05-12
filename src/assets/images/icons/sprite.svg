@@ -30,5 +30,98 @@
       <image  width="41" height="39" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAjCAYAAAATx8MeAAADRElEQVRYhcWYTW9VVRSGn1Lb2lLQaChiE4qigpaYtBgcEEQGmBIHJP4AHXbAH3DghGgckBB+ASbKRzoxJp2YWJhoIlHClxKB2lqDURRCaKlttaW+ZJH3JLvtveeee5t7fZOTfc/KWWc9e++1197nNkkCGAQ2sVQXgWH+D0kalDSjlZqUdCSgG33FSDUDC8BMMiYPgCc9WjsbPVbZ9AXYZtvC8L6n9F/g8UZDPeZ2EZhI7HfcBtQrwN0G8fyVQi3XJWAKaPcU/tcgqBagO5u+5QqY+znQ9dThckHnPFJPAyPAtw2AaXceX8kbie+BA8Au4K0GQJ0D1gM71uQ8dCH5vasBUBGjKSpBHtSEa1cH8EadgfY5hx8pD+qM21gRPXWG2utiPQ2M5UHdTErBa3WGesltJPvneVC4XoX66wy1P4k3Vwnqa7dRIl6vE1C/U4QsZSpB3fVWE8O6u05QA0Cn8+laEagvgXmgFdhQJ6hWHwjWAkMU2EZu+NQQenMVgZ8HtgMvAF3Ai8AW4DlD4eK5UAQqdNl16tWcZ9Z7BWWBnwG2OnCPUyBOIm1ljkKTwNnspgjUN4aKXuzx9RSwzT3udm/nnA7rSryjxf6zbiOH/gTGgavAF8BX1UDFFE77RcMO2lziuQxsMpmSX7wzjBriZ+Ant2VV7uiSKnq/mNxPeo/q8EniVwePQH8A172KbhXocEkVGamo6p8C73klngI+c+BFA5bS2gKdnXe+LVGRkQp1Obey7WDKI9WUrM5atMYp8U4tUBnYcSf6E6sAWa4xL5iaoDL1AQeT+56cKUwVK+/2MtuzwAcr7FV+aL4s6YqkB5LuSPpIUldB315JI5L+kXRb0uFyvtUCTZX4kh4rANZbjW9RoHBc8IuiHZJ0TtKsbScq+M6X8J2z7WStUB/7BfH/wtuJ/YTtEbSzgu89SQdsa5Z02vZIhbbUp9IpIVO72xZ/nGYadzvrPa+UslrY6n0U17fRxHfpcbvgSKX/zByVtFFSX2L7Pcf3kKd5UdKxxDebvpurSfTvkgSd9VRm0zKQ4xdl53w1vtVARcL+IGk6CfC3pA8L+v5Y1LeW4vmuD22hT/zVU1Sxf8bBLhS7w28rHIGHq95fiCoLnJUAAAAASUVORK5CYII="/>
     </svg>
   </symbol>
+
+  <symbol id="smallArrow"  viewBox="0 0 492.004 492.004">
+    <svg x="0px" y="0px"
+       style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+            c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+            c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+            c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+        </g>
+      </g>
+
+    </svg>
+
+
+  </symbol>
+<symbol viewBox="0 0 30.03 29.44" id="facebook">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.03" height="29.44" >
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c6d5ed;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1305" y="7028.56" width="30.03" height="29.44" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#546e7a"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M1333.77,7028.56h-27.52a1.24,1.24,0,0,0-1.25,1.23v26.98a1.24,1.24,0,0,0,1.25,1.23h14.7v-11.04h-3.75v-4.6h3.75v-3.68c0-3.8,2.45-5.67,5.91-5.67a34.6,34.6,0,0,1,3.5.17v3.97l-2.4.01c-1.88,0-2.32.87-2.32,2.16v3.04h4.69l-0.94,4.6h-3.75l0.07,11.04h8.06a1.24,1.24,0,0,0,1.25-1.23v-26.98A1.24,1.24,0,0,0,1333.77,7028.56Z" transform="translate(-1305 -7028.56)"/>
+</svg>
+
+  </symbol>
+<symbol viewBox="0 0 36.35 22.81" id="google">
+    <svg  width="36.35" height="22.81" >
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1441.53" y="7031.5" width="36.35" height="22.81" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#546e7a"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M1454.27,7045.26h5.68a7.235,7.235,0,0,1-14.01-2.07,7.146,7.146,0,0,1,7.21-7.36,7.264,7.264,0,0,1,4.84,1.84,0.8,0.8,0,0,0,1.07-.01l2.08-1.92a0.746,0.746,0,0,0,0-1.11,11.67,11.67,0,0,0-19.62,8.2,11.637,11.637,0,0,0,23.24.72c0.01-.07.01-2.62,0.01-2.62h-10.5a0.779,0.779,0,0,0-.78.77v2.8A0.771,0.771,0,0,0,1454.27,7045.26Zm20.13-4.07v-2.74a0.681,0.681,0,0,0-.69-0.67h-2.35a0.679,0.679,0,0,0-.68.67v2.74h-2.79a0.672,0.672,0,0,0-.68.67v2.3a0.672,0.672,0,0,0,.68.67h2.79v2.74a0.679,0.679,0,0,0,.68.67h2.35a0.681,0.681,0,0,0,.69-0.67v-2.74h2.79a0.679,0.679,0,0,0,.68-0.67v-2.3a0.679,0.679,0,0,0-.68-0.67h-2.79Z" transform="translate(-1441.53 -7031.5)"/>
+</svg>
+
+
+  </symbol>
+<symbol viewBox="0 0 30.5 29.91" id="instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.5" height="29.91" >
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1514.5" y="7028" width="30.5" height="29.91" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#546e7a"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M1536.59,7028h-13.67a8.345,8.345,0,0,0-8.41,8.25v13.4a8.345,8.345,0,0,0,8.41,8.25h13.67a8.338,8.338,0,0,0,8.41-8.25v-13.4a8.338,8.338,0,0,0-8.41-8.25h0Zm5.7,21.65a5.664,5.664,0,0,1-5.7,5.6h-13.67a5.664,5.664,0,0,1-5.7-5.6v-13.4a5.658,5.658,0,0,1,5.7-5.6h13.67a5.658,5.658,0,0,1,5.7,5.6v13.4Zm0,0-12.53-14.41a7.706,7.706,0,1,0,7.85,7.71,7.792,7.792,0,0,0-7.85-7.71h0Zm0,12.76a5.051,5.051,0,1,1,5.15-5.05,5.118,5.118,0,0,1-5.15,5.05h0Zm0,0,8.18-15a1.983,1.983,0,0,0-1.4.57,1.923,1.923,0,0,0-.58,1.37,1.963,1.963,0,0,0,.58,1.38,2,2,0,0,0,2.8,0,1.974,1.974,0,0,0,.59-1.38,1.933,1.933,0,0,0-.59-1.37,1.965,1.965,0,0,0-1.4-.57h0Zm0,0" transform="translate(-1514.5 -7028)"/>
+</svg>
+
+  </symbol>
+  <symblo viewBox="0 0 30.03 23.91" id="twitter">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30.03" height="23.91" >
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1404.96,7033.66a12.3,12.3,0,0,1-3.53.96,6.039,6.039,0,0,0,2.7-3.34,12.43,12.43,0,0,1-3.91,1.46,6.209,6.209,0,0,0-4.49-1.91,6.106,6.106,0,0,0-6.16,6.04,5.67,5.67,0,0,0,.16,1.38,17.583,17.583,0,0,1-12.69-6.31,5.919,5.919,0,0,0-.84,3.03,6.008,6.008,0,0,0,2.74,5.03,6.234,6.234,0,0,1-2.79-.75v0.07a6.062,6.062,0,0,0,4.94,5.92,6.2,6.2,0,0,1-1.62.21,6.336,6.336,0,0,1-1.16-.1,6.145,6.145,0,0,0,5.75,4.19,12.492,12.492,0,0,1-7.65,2.59,11.8,11.8,0,0,1-1.46-.09,17.69,17.69,0,0,0,9.44,2.71,17.226,17.226,0,0,0,17.52-17.18c0-.26-0.01-0.52-0.02-0.78A12.18,12.18,0,0,0,1404.96,7033.66Z" transform="translate(-1374.94 -7030.84)"/>
+</svg>
+
+  </symblo>
+
 </svg>
 

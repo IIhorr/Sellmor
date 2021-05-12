@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  align-self: flex-start;
+  &__item {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    &:hover {
+      background-color: #005695;
+    }
+
+    svg {
+      fill: var(--color-black);
+      height: 30px;
+      width: 30px;
+    }
+  }
+}

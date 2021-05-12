@@ -1,2 +1,120 @@
 .workers {
+  position: relative;
+  margin-bottom: 250px;
+
+  &__loved {
+    margin-top: 87px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__img {
+      width: 58px;
+      height: 54px;
+      margin-bottom: 36px;
+    }
+  }
+  &__title {
+    font: var(--font-title);
+    margin-bottom: 30px;
+    color: #263238;
+  }
+
+  &__text {
+    font: var(--font-text);
+    color: #7a7554;
+  }
+
+  &__slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &__item {
+      width: 500px;
+      height: 300px;
+      padding: 40px 30px;
+      background-color: var(--color-white);
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+      transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+      &:first-child {
+        margin-right: 168px;
+      }
+
+      &:hover {
+        background-color: #fcfbfd;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      }
+    }
+
+    &-count {
+      bottom: -95px;
+    }
+
+    &__info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    &__photo {
+      width: 77px;
+      height: 77px;
+      margin-right: 40px;
+    }
+
+    &__name {
+      font: var(--font-text);
+      color: #503495;
+    }
+
+    &__prof {
+      color: #263238;
+      font: var(--font-text);
+      opacity: 0.5;
+    }
+
+    &__text {
+      color: #7a7554;
+      opacity: 0.7;
+      font: var(--font-text);
+      font-size: 17px;
+    }
+
+    &__arrow {
+      position: absolute;
+      top: 50%;
+      width: 49px;
+      height: 49px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      transform: translateY(-50%);
+
+      &:active {
+        background-color: #cef0fc;
+      }
+
+      svg {
+        width: 10px;
+        height: 18px;
+        fill: #5dccf5;
+      }
+    }
+
+    &--prev {
+      background-color: #cef0fc;
+      left: -90px;
+      transform: translateY(-50%) rotate(-180deg);
+    }
+
+    &--next {
+      right: 38px;
+    }
+  }
 }

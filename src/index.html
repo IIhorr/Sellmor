@@ -352,7 +352,7 @@
           </div>
         </div>
 
-        <picture class="customers__bg">
+        <!-- <picture class="customers__bg">
           <source
             srcset="assets/images/bg/salesapp.webp 1x, assets/images/bg/salesapp.webp 2x"
             type="image/webp"
@@ -364,45 +364,55 @@
             alt="background image salesapp"
             aria-hidden="true"
           />
-        </picture>
+        </picture> -->
       </section>
 
       <section class="workers">
         <div class="br"></div>
         <div class="big__container">
+          <div class="workers__loved">
+            <picture class="workers__loved__img">
+              <source
+                srcset="assets/images/Loved/like.webp 1x, assets/images/Loved/like.webp 2x"
+                type="image/webp"
+              />
+              <img
+                class="img"
+                src="assets/images/Loved/like.png"
+                srcset="assets/images/Loved/like.png 1x, assets/images/Loved/like.png 2x"
+                alt="Like"
+                aria-hidden="true"
+              />
+            </picture>
+            <h3 class="workers__title">Loved by our customer. . .</h3>
+            <div class="workers__text">What did they say about our products?</div>
+          </div>
           <div class="container">
-            <div class="workers__loved">
-              <picture>
-                <source
-                  srcset="assets/images/Loved bu Customers/like.webp 1x, assets/images/Loved bu Customers/like.webp 2x"
-                  type="image/webp"
-                />
-                <img
-                  src="assets/images/Loved bu Customers/like.png"
-                  srcset="assets/images/Loved bu Customers/like.png 1x, assets/images/Loved bu Customers/like.png 2x"
-                  alt="Like"
-                  aria-hidden="true"
-                />
-              </picture>
-              <h3 class="workers__title">Loved by our customer. . .</h3>
-              <div class="workers__text">What did they say about our products?</div>
-            </div>
             <div class="workers__slider">
               <div class="workers__slider__item">
                 <div class="workers__slider__info">
                   <picture class="workers__slider__photo">
                     <source
-                      srcset="assets/images/Loved bu Customers/people-1.webp 1x, assets/images/Loved bu Customers/people-1.webp 2x"
+                      srcset="
+                        assets/images/Loved/people-1.webp 1x,
+                        assets/images/Loved/people-1.webp 2x
+                      "
                       type="image/webp"
                     />
                     <img
-                      src="assets/images/Loved bu Customers/people-1.png"
-                      srcset="assets/images/Loved bu Customers/people-1.png 1x, assets/images/Loved bu Customers/people-1.png 2x"
+                      class="img"
+                      src="assets/images/Loved/people-1.png"
+                      srcset="
+                        assets/images/Loved/people-1.png 1x,
+                        assets/images/Loved/people-1.png 2x
+                      "
                       alt="Photo our worker"
                     />
                   </picture>
-                  <strong class="workers__slider__name">Angela Barnes </strong>
-                  <p class="workers__slider__prof">Advisor</p>
+                  <div class="workers__slider__desc">
+                    <strong class="workers__slider__name">Angela Barnes </strong>
+                    <p class="workers__slider__prof">Advisor</p>
+                  </div>
                 </div>
                 <div class="workers__slider__text">
                   Usability tests show that having a single-page checkout flow versus a
@@ -415,28 +425,155 @@
                 <div class="workers__slider__info">
                   <picture class="workers__slider__photo">
                     <source
-                      srcset="assets/images/Loved bu Customers/people-2.webp 1x, assets/images/Loved bu Customers/people-2.webp 2x"
+                      srcset="
+                        assets/images/Loved/people-2.webp 1x,
+                        assets/images/Loved/people-2.webp 2x
+                      "
                       type="image/webp"
                     />
                     <img
-                      src="assets/images/Loved bu Customers/people-2.png"
-                      srcset="assets/images/Loved bu Customers/people-2.png 1x, assets/images/Loved bu Customers/people-2.png 2x"
+                      class="img"
+                      src="assets/images/Loved/people-2.png"
+                      srcset="
+                        assets/images/Loved/people-2.png 1x,
+                        assets/images/Loved/people-2.png 2x
+                      "
                       alt="Photo our worker"
                     />
                   </picture>
-                  <strong class="workers__slider__name">William Banks </strong>
-                  <p class="workers__slider__prof">Advisor</p>
+                  <div class="workers__slider__desc">
+                    <strong class="workers__slider__name">William Banks </strong>
+                    <p class="workers__slider__prof">Advisor</p>
+                  </div>
                 </div>
                 <div class="workers__slider__text">
                   Increasing conversion rates from mobile devices such as smartphones and tablets is
                   a key goal of every ecommerce company.
                 </div>
               </div>
+
+              <div class="customers__slider-count workers__slider-count">
+                <div class="customers__slider-count__item"></div>
+                <div class="customers__slider-count__item active"></div>
+                <div class="customers__slider-count__item"></div>
+              </div>
+              <div class="workers__slider__arrow workers__slider--next">
+                <svg class="">
+                  <use xlink:href="assets/images/icons/right-arrow.svg#smallArrow"></use>
+                </svg>
+              </div>
+              <div class="workers__slider__arrow workers__slider--prev">
+                <svg class="">
+                  <use xlink:href="assets/images/icons/right-arrow.svg#smallArrow"></use>
+                </svg>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="mailing">
+        <div class="container mailing__container">
+          <h2 class="mailing__title">What would you get by purchasing this product?</h2>
+          <p class="mailing__text">
+            Are you interested to learn more about our product? You can simply fill our contact
+            form.
+          </p>
+
+          <form action="#" class="form mailing__form">
+            <label class="form__label-mess" for="mess">
+              <span class="form__span-mess">
+                <svg>
+                  <use xlink:href="assets/images/icons/mess.svg#mess"></use>
+                </svg>
+              </span>
+              <input
+                class="form__input-mess"
+                type="email"
+                id="mess"
+                placeholder="Enter your email address"
+              />
+            </label>
+            <button class="btn-reset btn form__btn">Try Now</button>
+          </form>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <picture class="footer__bg">
+        <source
+          srcset="assets/images/bg/footer_03.webp 1x, assets/images/bg/footer_03.webp 2x"
+          type="image/webp"
+        />
+        <img
+          class="img"
+          src="assets/images/bg/footer_03.png"
+          srcset="assets/images/bg/footer_03.png 1x, name2.png 2x"
+          alt="backound image"
+          aria-hidden="true"
+        />
+      </picture>
+      <div class="container footer__container">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <a href="#" class="logo footer__logo">
+              <picture>
+                <source
+                  srcset="
+                    assets/images/intro/logo-fotter.png 1x,
+                    assets/images/intro/logo-fotter.png 2x
+                  "
+                  type="image/png"
+                />
+                <img
+                  class="img"
+                  srcset="
+                    assets/images/intro/logo-fotter.png 1x,
+                    assets/images/intro/logo-fotter.png 2x
+                  "
+                  alt="Logo company"
+                />
+              </picture>
+            </a>
+
+            <p class="footer__text">
+              Sellmore is an IT Product & Service curated marketplace. Most of our products and
+              service implementors are Indonesians. We aspire to provide a wide range of reliable IT
+              solutions with competitive price for global customers.
+            </p>
+            <div class="footer__copy">Copyright 2018 © Sellmore</div>
+          </div>
+          <ul class="footer__column">
+            <li class="footer__info">OUR PARTNERS</li>
+            <li class="footer__info">RESELLER & FRANCHISE PROGRAM</li>
+            <li class="footer__info">PRODUCTS & SERVICES</li>
+          </ul>
+          <ul class="footer__column social">
+            <li class="social__item">
+              <svg class="">
+                <use xlink:href="assets/images/icons/sprite.svg#facebook"></use>
+              </svg>
+            </li>
+            <li class="social__item">
+              <svg class="">
+                <use xlink:href="assets/images/icons/twitter.svg#twitter"></use>
+              </svg>
+            </li>
+            <li class="social__item">
+              <svg class="">
+                <use xlink:href="assets/images/icons/google.svg#google"></use>
+              </svg>
+            </li>
+            <li class="social__item">
+              <svg class="">
+                <use xlink:href="assets/images/icons/instagram.svg#instagram"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 
   <script src="../dist/js/bundle.js"></script>

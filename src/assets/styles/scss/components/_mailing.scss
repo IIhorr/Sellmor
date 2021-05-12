@@ -1,0 +1,37 @@
+.mailing {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font: var(--font-title);
+    margin-bottom: 33px;
+    color: #263238;
+  }
+
+  &__text {
+    width: 560px;
+    font: var(--font-text);
+    color: #546e7a;
+    margin-bottom: 67px;
+  }
+
+  &__form {
+    width: 690px;
+    background-color: #005695;
+
+    input {
+      background-color: #005695;
+    }
+    button {
+      background-color: var(--color-white);
+      color: #005695;
+      font-weight: 700;
+    }
+  }
+}
