@@ -59,3 +59,52 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .salesapp {
+    &__text-inner {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .salesapp {
+    margin-bottom: 110px;
+    &__left {
+      grid-column: 11 span;
+      grid-row: 2;
+    }
+
+    &__right {
+      grid-column: 2 / 9 span;
+      text-align: center;
+    }
+
+    &__title {
+      font-size: 30px;
+      line-height: 1.2;
+    }
+
+    &__text {
+      font-size: 15px;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .salesapp {
+    &__title {
+      font-size: 30px;
+      line-height: 1.2;
+      margin-bottom: 25px;
+    }
+
+    &__text {
+      font-size: 13px;
+    }
+  }
+}

@@ -1,8 +1,11 @@
 .purchasing {
   position: relative;
+  z-index: 10;
   margin-bottom: 150px;
 
-  .container {
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: var(--color-white);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 15px;
@@ -27,7 +30,7 @@
     font: var(--font-title);
     color: #263238;
     line-height: 65px;
-    width: 560px;
+    max-width: 560px;
     margin-bottom: 115px;
   }
 
@@ -37,7 +40,7 @@
     grid-column-gap: var(--grid-gap);
     grid-row-gap: 63px;
     grid-template-columns: repeat(8, 1fr);
-    margin-bottom: 110px !important;
+    margin-bottom: 20px !important;
   }
 
   &__item {
@@ -74,6 +77,64 @@
     svg {
       width: 50px;
       height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .purchasing {
+    &__container {
+      border-radius: 0;
+    }
+    &__title {
+      margin: 0 auto 115px;
+    }
+
+    &__item {
+      grid-column: 4 span !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .purchasing {
+    margin-bottom: 90px;
+    &__title {
+      margin: 0 auto 15px;
+      line-height: 1.2;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    &__img {
+      width: 60px;
+      height: 60px;
+      svg {
+        width: 30px;
+      }
+    }
+
+    &__item {
+      &-title {
+        font-size: 20px;
+      }
+
+      &-text {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .purchasing {
+    &__item {
+      text-align: center;
+      grid-column: 8 span !important;
+    }
+
+    &__img {
+      margin: 0 auto 50px;
     }
   }
 }

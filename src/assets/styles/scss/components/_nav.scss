@@ -5,6 +5,12 @@
   }
 
   &__item {
+    font: var(--font-links);
+    color: var(--color-white);
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-right: 75px;
+    letter-spacing: 2.7px;
     &:hover {
       opacity: 1;
     }
@@ -12,12 +18,14 @@
     &-active {
       opacity: 1;
     }
+  }
+}
 
-    font: var(--font-links);
-    color: var(--color-white);
-    text-transform: uppercase;
-    opacity: 0.5;
-    margin-right: 75px;
-    letter-spacing: 2.7px;
+@media screen and (max-width: 1300px) {
+  .nav {
+    &__item {
+      font-size: 13px;
+      margin-right: 50px;
+    }
   }
 }

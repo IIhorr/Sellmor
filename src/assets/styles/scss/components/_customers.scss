@@ -7,7 +7,7 @@
     font: var(--font-title);
     margin-bottom: 61px;
     line-height: 64px;
-    width: 690px;
+    max-width: 690px;
   }
 
   &__bottom {
@@ -108,6 +108,148 @@
     right: -678px;
     top: -205px;
     width: 1527px;
-    z-index: -1;
+    z-index: -10;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .customers {
+    margin-bottom: 120px;
+    &__bg {
+      display: none;
+    }
+    &__count__num {
+      font-size: 400px;
+      top: -100px;
+    }
+
+    &__icon {
+      margin-bottom: 10px;
+    }
+    &__bottom {
+      margin-top: 10px;
+    }
+    &__phone {
+      top: -250px;
+    }
+    &__slider-count {
+      bottom: -80px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .customers {
+    margin-bottom: 100px;
+    &__bottom {
+      margin-top: 10px;
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+
+    &__title {
+      width: 100%;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 50px;
+      line-height: 1.2;
+    }
+
+    &__count {
+      &__num {
+        font-size: 300px;
+        margin-top: 0;
+      }
+
+      &__title {
+        font-size: 30px;
+      }
+    }
+
+    &__icon {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 10px;
+
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    &__phone {
+      top: -250px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .customers {
+    &__icon {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &__count__title {
+      margin-left: 100px;
+      font-size: 20px;
+    }
+    &__count {
+      grid-column: 12 span;
+    }
+    &__text {
+      text-align: center;
+      grid-column: 12 span;
+      grid-row: 2;
+    }
+    &__count {
+      &__num {
+        top: -80px;
+        font-size: 200px;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .customers__phone {
+    top: -200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .customers__phone {
+    top: -150px;
+  }
+  .customers__count__title {
+    margin-left: 50px;
+  }
+  .customers__icon {
+    width: 40px;
+    height: 40px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .customers__phone {
+    top: -125px;
+    right: 40px;
+  }
+  .customers__count {
+    margin-top: 0;
+  }
+  .customers__count__num {
+    font-size: 100px;
+    top: -20px;
+    left: 66px;
   }
 }

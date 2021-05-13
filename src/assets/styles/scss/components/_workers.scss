@@ -2,6 +2,12 @@
   position: relative;
   margin-bottom: 250px;
 
+  &__container {
+    max-width: 1410px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
   &__loved {
     margin-top: 87px;
     margin-bottom: 120px;
@@ -30,18 +36,26 @@
   &__slider {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: relative;
+    height: 300px;
 
     &__item {
       width: 500px;
-      height: 300px;
+      height: 100%;
       padding: 40px 30px;
       background-color: var(--color-white);
       box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
       transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      margin-right: 90px;
 
       &:first-child {
-        margin-right: 168px;
+        margin-right: 10%;
+        margin-left: 90px;
+      }
+
+      &:last-child {
+        margin-right: 40px;
       }
 
       &:hover {
@@ -58,7 +72,7 @@
     &__info {
       display: flex;
       align-items: center;
-      margin-bottom: 25px;
+      margin-bottom: 15px;
     }
 
     &__photo {
@@ -108,13 +122,76 @@
     }
 
     &--prev {
+      left: 0;
       background-color: #cef0fc;
-      left: -90px;
       transform: translateY(-50%) rotate(-180deg);
     }
 
     &--next {
-      right: 38px;
+      right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .workers {
+    &__slider {
+      height: 350px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .workers {
+    margin-bottom: 180px;
+    &__lover {
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+    &__slider {
+      justify-content: center;
+      &__item {
+        margin: 0 !important;
+      }
+    }
+    &__slider__item + &__slider__item {
+      display: none;
+    }
+    &__title {
+      font-size: 30px;
+    }
+
+    &__loved {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .workers__slider__arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .workers {
+    margin-bottom: 100px;
+    &__loved {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    &__title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+
+    &__slider-count {
+      bottom: -50px;
     }
   }
 }

@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-  max-width: 1290px;
+  max-width: 1320px;
+  padding: 0 15px;
   margin-left: auto;
 }
 
@@ -50,7 +51,7 @@ body {
 .logo {
   display: block;
   width: 219px;
-  height: 83px;
+  height: auto;
 }
 
 .img {
@@ -66,4 +67,8 @@ body {
   border-radius: 1.5px;
   background-color: #503495;
   opacity: 0.1;
+}
+
+.main {
+  overflow: hidden;
 }
