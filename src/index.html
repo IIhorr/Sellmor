@@ -9,6 +9,7 @@
     <meta name="keywords" content="Modern website" />
     <meta name="author" content="Igor" />
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
     <link rel="stylesheet" href="assets/styles/css/main.css" />
     <link rel="stylesheet" href="assets/styles/css/main.css.map" />
@@ -312,45 +313,136 @@
           </div>
 
           <div class="container">
-            <div class="customers__bottom">
-              <div class="customers__count">
-                <div class="customers__icon">
-                  <svg class="">
-                    <use xlink:href="assets/images/icons/sprite.svg#shop"></use>
-                  </svg>
-                </div>
+            <div class="slider__wrapper">
+              <div class="slide__elements">
+                <div class="customers__bottom">
+                  <div class="customers__count">
+                    <div class="customers__icon">
+                      <svg class="">
+                        <use xlink:href="assets/images/icons/sprite.svg#shop"></use>
+                      </svg>
+                    </div>
 
-                <h3 class="customers__count__title">My Business & Training Platform</h3>
-                <div class="customers__count__num">4m</div>
+                    <h3 class="customers__count__title">My Business & Training Platform</h3>
+                    <div class="customers__count__num">4m</div>
+                  </div>
+                  <p class="customers__text">
+                    My Business will allow sales / reseller to check their commission bonus,
+                    business network, and sales performance on the leader board. This feature is
+                    prepared to help encourage your sales team to do better while checking their own
+                    performance.
+                  </p>
+                  <picture class="customers__phone">
+                    <source
+                      srcset="
+                        assets/images/Customers/phone.webp 1x,
+                        assets/images/Customers/phone.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="img"
+                      src="assets/images/Customers/phone.png"
+                      srcset="
+                        assets/images/Customers/phone.png 1x,
+                        assets/images/Customers/phone.png 2x
+                      "
+                      alt="adaptive products on phone"
+                    />
+                  </picture>
+                  <div class="customers__slider-count">
+                    <div class="customers__slider-count__item"></div>
+                    <div class="customers__slider-count__item active"></div>
+                    <div class="customers__slider-count__item"></div>
+                  </div>
+                </div>
               </div>
-              <p class="customers__text">
-                My Business will allow sales / reseller to check their commission bonus, business
-                network, and sales performance on the leader board. This feature is prepared to help
-                encourage your sales team to do better while checking their own performance.
-              </p>
-              <picture class="customers__phone">
-                <source
-                  srcset="
-                    assets/images/Customers/phone.webp 1x,
-                    assets/images/Customers/phone.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  class="img"
-                  src="assets/images/Customers/phone.png"
-                  srcset="
-                    assets/images/Customers/phone.png 1x,
-                    assets/images/Customers/phone.png 2x
-                  "
-                  alt="adaptive products on phone"
-                />
-              </picture>
-              <div class="customers__slider-count">
-                <div class="customers__slider-count__item"></div>
-                <div class="customers__slider-count__item active"></div>
-                <div class="customers__slider-count__item"></div>
+              <!-- <div class="slide__elements">
+                <div class="customers__bottom">
+                  <div class="customers__count">
+                    <div class="customers__icon">
+                      <svg class="">
+                        <use xlink:href="assets/images/icons/sprite.svg#shop"></use>
+                      </svg>
+                    </div>
+
+                    <h3 class="customers__count__title">My Business & Training Platform</h3>
+                    <div class="customers__count__num">4m</div>
+                  </div>
+                  <p class="customers__text">
+                    My Business will allow sales / reseller to check their commission bonus,
+                    business network, and sales performance on the leader board. This feature is
+                    prepared to help encourage your sales team to do better while checking their own
+                    performance.
+                  </p>
+                  <picture class="customers__phone">
+                    <source
+                      srcset="
+                        assets/images/Customers/phone.webp 1x,
+                        assets/images/Customers/phone.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="img"
+                      src="assets/images/Customers/phone.png"
+                      srcset="
+                        assets/images/Customers/phone.png 1x,
+                        assets/images/Customers/phone.png 2x
+                      "
+                      alt="adaptive products on phone"
+                    />
+                  </picture>
+                  <div class="customers__slider-count">
+                    <div class="customers__slider-count__item"></div>
+                    <div class="customers__slider-count__item active"></div>
+                    <div class="customers__slider-count__item"></div>
+                  </div>
+                </div>
               </div>
+              <div class="slide__elements">
+                <div class="customers__bottom">
+                  <div class="customers__count">
+                    <div class="customers__icon">
+                      <svg class="">
+                        <use xlink:href="assets/images/icons/sprite.svg#shop"></use>
+                      </svg>
+                    </div>
+
+                    <h3 class="customers__count__title">My Business & Training Platform</h3>
+                    <div class="customers__count__num">4m</div>
+                  </div>
+                  <p class="customers__text">
+                    My Business will allow sales / reseller to check their commission bonus,
+                    business network, and sales performance on the leader board. This feature is
+                    prepared to help encourage your sales team to do better while checking their own
+                    performance.
+                  </p>
+                  <picture class="customers__phone">
+                    <source
+                      srcset="
+                        assets/images/Customers/phone.webp 1x,
+                        assets/images/Customers/phone.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="img"
+                      src="assets/images/Customers/phone.png"
+                      srcset="
+                        assets/images/Customers/phone.png 1x,
+                        assets/images/Customers/phone.png 2x
+                      "
+                      alt="adaptive products on phone"
+                    />
+                  </picture>
+                  <div class="customers__slider-count">
+                    <div class="customers__slider-count__item"></div>
+                    <div class="customers__slider-count__item active"></div>
+                    <div class="customers__slider-count__item"></div>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -390,84 +482,212 @@
             <h3 class="workers__title">Loved by our customer. . .</h3>
             <div class="workers__text">What did they say about our products?</div>
           </div>
-          <div class="workers__slider">
-            <div class="workers__slider__item">
-              <div class="workers__slider__info">
-                <picture class="workers__slider__photo">
-                  <source
-                    srcset="
-                      assets/images/Loved/people-1.webp 1x,
-                      assets/images/Loved/people-1.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <img
-                    class="img"
-                    src="assets/images/Loved/people-1.png"
-                    srcset="
-                      assets/images/Loved/people-1.png 1x,
-                      assets/images/Loved/people-1.png 2x
-                    "
-                    alt="Photo our worker"
-                  />
-                </picture>
-                <div class="workers__slider__desc">
-                  <strong class="workers__slider__name">Angela Barnes </strong>
-                  <p class="workers__slider__prof">Advisor</p>
-                </div>
-              </div>
-              <div class="workers__slider__text">
-                Usability tests show that having a single-page checkout flow versus a multiple-page
-                flow doesn’t make a difference to conversions. However, reducing the number of
-                fields in a form does increase conversions.
-              </div>
-            </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="workers__slider">
+                    <div class="workers__slider__item">
+                      <div class="workers__slider__info">
+                        <picture class="workers__slider__photo">
+                          <source
+                            srcset="
+                              assets/images/Loved/people-1.webp 1x,
+                              assets/images/Loved/people-1.webp 2x
+                            "
+                            type="image/webp"
+                          />
+                          <img
+                            class="img"
+                            src="assets/images/Loved/people-1.png"
+                            srcset="
+                              assets/images/Loved/people-1.png 1x,
+                              assets/images/Loved/people-1.png 2x
+                            "
+                            alt="Photo our worker"
+                          />
+                        </picture>
+                        <div class="workers__slider__desc">
+                          <strong class="workers__slider__name">Angela Barnes </strong>
+                          <p class="workers__slider__prof">Advisor</p>
+                        </div>
+                      </div>
+                      <div class="workers__slider__text">
+                        Usability tests show that having a single-page checkout flow versus a
+                        multiple-page flow doesn’t make a difference to conversions. However,
+                        reducing the number of fields in a form does increase conversions.
+                      </div>
+                    </div>
 
-            <div class="workers__slider__item">
-              <div class="workers__slider__info">
-                <picture class="workers__slider__photo">
-                  <source
-                    srcset="
-                      assets/images/Loved/people-2.webp 1x,
-                      assets/images/Loved/people-2.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <img
-                    class="img"
-                    src="assets/images/Loved/people-2.png"
-                    srcset="
-                      assets/images/Loved/people-2.png 1x,
-                      assets/images/Loved/people-2.png 2x
-                    "
-                    alt="Photo our worker"
-                  />
-                </picture>
-                <div class="workers__slider__desc">
-                  <strong class="workers__slider__name">William Banks </strong>
-                  <p class="workers__slider__prof">Advisor</p>
+                    <div class="workers__slider__item">
+                      <div class="workers__slider__info">
+                        <picture class="workers__slider__photo">
+                          <source
+                            srcset="
+                              assets/images/Loved/people-2.webp 1x,
+                              assets/images/Loved/people-2.webp 2x
+                            "
+                            type="image/webp"
+                          />
+                          <img
+                            class="img"
+                            src="assets/images/Loved/people-2.png"
+                            srcset="
+                              assets/images/Loved/people-2.png 1x,
+                              assets/images/Loved/people-2.png 2x
+                            "
+                            alt="Photo our worker"
+                          />
+                        </picture>
+                        <div class="workers__slider__desc">
+                          <strong class="workers__slider__name">William Banks </strong>
+                          <p class="workers__slider__prof">Advisor</p>
+                        </div>
+                      </div>
+                      <div class="workers__slider__text">
+                        Increasing conversion rates from mobile devices such as smartphones and
+                        tablets is a key goal of every ecommerce company.
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="workers__slider__text">
-                Increasing conversion rates from mobile devices such as smartphones and tablets is a
-                key goal of every ecommerce company.
-              </div>
-            </div>
+                <div class="swiper-slide">
+                  <div class="workers__slider">
+                    <div class="workers__slider__item">
+                      <div class="workers__slider__info">
+                        <picture class="workers__slider__photo">
+                          <source
+                            srcset="
+                              assets/images/Loved/people-1.webp 1x,
+                              assets/images/Loved/people-1.webp 2x
+                            "
+                            type="image/webp"
+                          />
+                          <img
+                            class="img"
+                            src="assets/images/Loved/people-1.png"
+                            srcset="
+                              assets/images/Loved/people-1.png 1x,
+                              assets/images/Loved/people-1.png 2x
+                            "
+                            alt="Photo our worker"
+                          />
+                        </picture>
+                        <div class="workers__slider__desc">
+                          <strong class="workers__slider__name">Angela Barnes </strong>
+                          <p class="workers__slider__prof">Advisor</p>
+                        </div>
+                      </div>
+                      <div class="workers__slider__text">
+                        Usability tests show that having a single-page checkout flow versus a
+                        multiple-page flow doesn’t make a difference to conversions. However,
+                        reducing the number of fields in a form does increase conversions.
+                      </div>
+                    </div>
 
-            <div class="customers__slider-count workers__slider-count">
-              <div class="customers__slider-count__item"></div>
-              <div class="customers__slider-count__item active"></div>
-              <div class="customers__slider-count__item"></div>
+                    <div class="workers__slider__item">
+                      <div class="workers__slider__info">
+                        <picture class="workers__slider__photo">
+                          <source
+                            srcset="
+                              assets/images/Loved/people-2.webp 1x,
+                              assets/images/Loved/people-2.webp 2x
+                            "
+                            type="image/webp"
+                          />
+                          <img
+                            class="img"
+                            src="assets/images/Loved/people-2.png"
+                            srcset="
+                              assets/images/Loved/people-2.png 1x,
+                              assets/images/Loved/people-2.png 2x
+                            "
+                            alt="Photo our worker"
+                          />
+                        </picture>
+                        <div class="workers__slider__desc">
+                          <strong class="workers__slider__name">William Banks </strong>
+                          <p class="workers__slider__prof">Advisor</p>
+                        </div>
+                      </div>
+                      <div class="workers__slider__text">
+                        Increasing conversion rates from mobile devices such as smartphones and
+                        tablets is a key goal of every ecommerce company.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="workers__slider">
+                    <div class="workers__slider__item">
+                      <div class="workers__slider__info">
+                        <picture class="workers__slider__photo">
+                          <source
+                            srcset="
+                              assets/images/Loved/people-1.webp 1x,
+                              assets/images/Loved/people-1.webp 2x
+                            "
+                            type="image/webp"
+                          />
+                          <img
+                            class="img"
+                            src="assets/images/Loved/people-1.png"
+                            srcset="
+                              assets/images/Loved/people-1.png 1x,
+                              assets/images/Loved/people-1.png 2x
+                            "
+                            alt="Photo our worker"
+                          />
+                        </picture>
+                        <div class="workers__slider__desc">
+                          <strong class="workers__slider__name">Angela Barnes </strong>
+                          <p class="workers__slider__prof">Advisor</p>
+                        </div>
+                      </div>
+                      <div class="workers__slider__text">
+                        Usability tests show that having a single-page checkout flow versus a
+                        multiple-page flow doesn’t make a difference to conversions. However,
+                        reducing the number of fields in a form does increase conversions.
+                      </div>
+                    </div>
+
+                    <div class="workers__slider__item">
+                      <div class="workers__slider__info">
+                        <picture class="workers__slider__photo">
+                          <source
+                            srcset="
+                              assets/images/Loved/people-2.webp 1x,
+                              assets/images/Loved/people-2.webp 2x
+                            "
+                            type="image/webp"
+                          />
+                          <img
+                            class="img"
+                            src="assets/images/Loved/people-2.png"
+                            srcset="
+                              assets/images/Loved/people-2.png 1x,
+                              assets/images/Loved/people-2.png 2x
+                            "
+                            alt="Photo our worker"
+                          />
+                        </picture>
+                        <div class="workers__slider__desc">
+                          <strong class="workers__slider__name">William Banks </strong>
+                          <p class="workers__slider__prof">Advisor</p>
+                        </div>
+                      </div>
+                      <div class="workers__slider__text">
+                        Increasing conversion rates from mobile devices such as smartphones and
+                        tablets is a key goal of every ecommerce company.
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="workers__slider__arrow workers__slider--next">
-              <svg class="">
-                <use xlink:href="assets/images/icons/right-arrow.svg#smallArrow"></use>
-              </svg>
-            </div>
-            <div class="workers__slider__arrow workers__slider--prev">
-              <svg class="">
-                <use xlink:href="assets/images/icons/right-arrow.svg#smallArrow"></use>
-              </svg>
+            
+            <button class="swiper-button-prev"></и>
+            <button class="swiper-button-next"></button>
+            <div class="swiper-pagination"></div>
+
             </div>
           </div>
         </div>
@@ -577,6 +797,7 @@
     </footer>
   </body>
 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="../dist/js/bundle.js"></script>
   <script src="../dist/js/bundle.js.map"></script>
 </html>

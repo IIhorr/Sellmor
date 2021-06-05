@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 100;
@@ -10,11 +10,6 @@
     display: flex;
     align-items: center;
   }
-  //   !фон для header
-  //   &__bg {
-  //     background-color: var(--color-white);
-  //     opacity: 0.8;
-  //   }
 
   &__right {
     margin-left: auto;
